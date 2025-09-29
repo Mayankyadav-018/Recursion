@@ -44,6 +44,86 @@ It is especially useful for problems that can be broken down into smaller, simil
 * Reduces need for complex loops in many cases.
 
 
+# Recursion To Find Factorial of a Number:
+
+This program demonstrates how to calculate the factorial of a number using recursion. The factorial of a number n is defined as the product of all positive integers less than or equal to n.
+
+ALGORITHM:
+
+1> Start
+
+2> Define factorial(n) function
+
+* If n <= 1, return 1
+
+* Else, return n * factorial(n - 1)
+
+3> In main function
+
+* Input number n from user
+
+* If n < 0, display "Factorial not defined for negative numbers"
+
+* Else, call factorial(n) and display the result
+
+4> End
+
+
+
+# Recursion To Add Number Till n:
+
+This program demonstrates how to calculate the sum of the first n natural numbers using iteration.
+
+ALGORITHM:
+
+1> Start
+
+2> Define sum(n) function
+
+* Initialize sum = 0
+
+* Loop i from 1 to n
+
+* Add i to sum
+
+* Return sum
+
+3> In main function
+
+* Input value of n from user
+
+* If n == 0, display "Sum is equal to 0"
+
+* Else, call sum(n) and display the result
+
+4> End
+
+
+# Recursion To Reverse the String:
+
+This program demonstrates how to reverse a string using recursion. The function prints characters from the end of the string to the beginning.
+
+ALGORITHM:
+
+1> Start
+
+2> Define reversePrint(s, i) function
+
+* If i < 0, return (base case)
+
+* Print s[i]
+
+* Call reversePrint(s, i - 1) recursively
+
+3> In main function
+
+* Input string s from user
+
+* Call reversePrint(s, s.length() - 1) to display the reversed string
+
+4> End
+
+
 # Conclusion:
   
 Recursion in C++ provides an elegant way to solve problems by breaking them into smaller sub-problems. It simplifies code for tasks like factorial, Fibonacci, and string reversal. However, recursion must be used carefully with a proper base case to avoid infinite calls and stack overflow. Overall, it improves code clarity but may be less efficient than iteration in some cases.
