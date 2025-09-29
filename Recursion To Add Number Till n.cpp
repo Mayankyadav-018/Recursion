@@ -28,6 +28,6 @@ int main(){
 
 
 /* OUTPUT 
-Enter the number: 5
-Factorial of 5 is = 120
+Enter the value of n: 10
+Sum of 10is = 55
 */
